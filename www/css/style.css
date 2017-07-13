@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 /*menu's home screen*/
 .border {border: 1px solid;}
-.margin-bottom-15px1 { margin-bottom:15px; }
+.margin-bottom-15px1 { margin-bottom:15%; }
 .margin-bottom-10px2 {margin-bottom: 10px;}
 /*menu's class*/
 .fontsizemenu {font-size:20px;}
@@ -9,12 +9,12 @@
 .gotoleftmenu {text-align: left;}
 .heightbntmenu {height: 35%;}
 
-/*menu's classbutton*/
+/*menu's class*/
 .fontsizebnt {font-size:150%;}
-.heightbnt {height: 50%;}
+.heightbnt {height: 70%;}
 .margin-bottom--5px {margin-bottom: -10px !important; height: 25%;}
 
-/*menulist's classbutton (ML) */
+/*menulist's class (ML) */
 .fontsizemenulist {font-size:28px !important;}
 .fontdetail {font-size:25px !important;}
 .sizelist {height: 200px;}
@@ -31,6 +31,8 @@
 .sizescrollboxML{width:100%; height:800px;}
 .fontsizeML{font-size: 28px !important;}
 .fontsizeML2{font-size: 16px !important;}
+.icontotopML{margin-top: -50px !important;}
+.fontsizeglassML{font-size: 18px !important;}
 
 /*orderlist's class (OL) */
 .bodercolorgray{background:gray; border: 1px solid;}
@@ -65,7 +67,7 @@
 .bodertopRC3{border-top: 3px solid !important;}
 .buttonheight{height: 60px !important;}
 .fonttopic{font-size:48px;}
-
+.fontcolorRC{color: black !important;}
 /*buycc screen's class (BC)*/
 .margintotopBC{margin-top: 3% !important;}
 .fontsizeBC{font-size: 16px}
@@ -93,7 +95,13 @@
 /* N&P's class*/
 .fontsizeNP {font-size: 30px !important;}
 
+/* Signin's class*/
+.fontsizeSI {font-size: 20px !important;}
 
+/* Cupcoins's class*/
+.fontsizeCC {font-size: 20px !important;}
+.margin-bottom-leftCC{margin-left: 200px !important;}
+.textpositionCC {text-align: center !important;}
 
 
 

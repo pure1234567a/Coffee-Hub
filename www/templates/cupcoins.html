@@ -1,0 +1,19 @@
+<ion-view view-title="Cup Coins">
+    <ion-content>
+    </ion-content>
+    <ion-tabs class="tabs-positive tabs-icon-top">
+        <ion-tab title="Overview" icon-on="ion-earth" icon-off="ion-earth">
+                <div ng-include src="'templates/overview.html'"></div>
+        </ion-tab>
+        <ion-tab title="Top up CC" icon-on="ion-social-usd-outline" icon-off="ion-social-usd-outline">
+            <ion-view>
+                <div ng-include src="'templates/buycc.html'"></div>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="Buy Back CC" icon-on="ion-social-bitcoin-outline" icon-off="ion-social-bitcoin-outline">
+            <ion-view>
+                <div ng-include src="'templates/sellcc.html'"></div>
+            </ion-view>
+        </ion-tab>
+    </ion-tabs>
+</ion-view>

@@ -24,6 +24,9 @@ angular.module('authen.controller', [])
                  console.log('Username  ' + 'กรุณาใส่ Username' + ' และ password' );
 }    
 }
+     $scope.gotosigninwithqr = function(){
+        $state.go('app.signinwithqr')
+    }
 
 
 })

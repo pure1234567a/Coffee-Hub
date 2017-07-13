@@ -1,38 +1,94 @@
 <ion-view view-title="Buy Cup Coins">
     <ion-content>
+        <h1 class="textpositionCC">Top Up Cup Coins</h1>
         <div class="row">
             <div class="col col-100 ">
                 <div class="row">
                     <div class="col col-50 ">
-                         <a class="item item-icon-left fontsizeRC item-borderless ">
+                        <a class="item item-icon-left fontsizeRC item-borderless ">
                             <span class="item-note fontsizeRC">
                             </span>
                         </a>
-                        <img src="img/CupCoins.jpg" width="100%" height="100%">
+                        <img src="img/qrcode.png" width="100%" height="100%">
                     </div>
                     <div class="col col-50 ">
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 1 Coin (price : 30 baht)</p>
-                        </button>
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 3 Coin (price : 30 baht)</p>
-                        </button>
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 5 Coin (price : 30 baht)</p>
-                        </button>
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 10 Coin (price : 30 baht)</p>
-                        </button>
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 20 Coin (price : 30 baht)</p>
-                        </button>
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 50 Coin (price : 30 baht)</p>
-                        </button>
-                        <button class="button button-full button-positive heightbntBC " ng-click="gotoqrscanfrombuycc()">
-                            <p class="fontsizebntBC">Top up 100 Coin (price : 30 baht)</p>
-                        </button>
-                        
+                        <div class="row">
+                            <div class="col col-100 borderCS">
+                                <a class="item item-icon-left">
+                            <i class="icon ion-social-usd"></i>
+                                <label class="fontsizeCS">ToTal </label>
+                            <span class="item-note fontcolor">
+                               <label class="fontsizeCS ">30 Bath </label>
+                            </span>
+                        </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-100 borderCS">
+                                <div class="list list-inset">
+                                    <label class="item item-input">
+                                <input ng-model="expression" type="text" placeholder="กรุณากรอกเงินที่ได้รับมา" />
+                            </label>
+                                </div>
+                                <div style="margin-top: 50px">
+                                    <div class="row">
+                                        <div class="col col-20 col-offset-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('1')">1</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('2')">2</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('3')">3</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch">CE</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-20 col-offset-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('4')">4</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('5')">5</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('6')">6</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch">C</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-20 col-offset-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('7')">7</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('8')">8</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('9')">9</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-20 col-offset-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('0')">0</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('00')">00</button>
+                                        </div>
+                                        <div class="col col-20">
+                                            <button class="button button-light button-stretch" ng-click="addtobuycc('000')">000</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-100 ">
+                            <button class="button button-full button-positive heightCS fontsizeCS" ng-click="gotoscanqrformtopupinCC()">
+                                Submit
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

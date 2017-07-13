@@ -20,7 +20,10 @@ angular.module(
   'receipt.controller',
   'buycc.controller',
   'sellcc.controller',
-  'addmenu.controller'
+  'addmenu.controller',
+  'cupcoins.controller',
+  'overview.controller',
+  'signinwithqr.controller'
   ])
 
 .run(function($ionicPlatform) {
@@ -200,6 +203,33 @@ angular.module(
         'menuContent': {
           templateUrl: 'templates/addmenu.html',
           controller: 'addmenuCtrl'
+        }
+      }
+    })
+    .state('app.cupcoins', {
+      url: '/cupcoins',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/cupcoins.html',
+          controller: 'cupcoinsCtrl'
+        }
+      }
+    })
+    .state('app.overview', {
+      url: '/overview',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/overview.html',
+          controller: 'overviewCtrl'
+        }
+      }
+    })
+    .state('app.signinwithqr', {
+      url: '/signinwithqr',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/signinwithqr.html',
+          controller: 'signinwithqrCtrl'
         }
       }
     })

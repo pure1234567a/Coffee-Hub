@@ -12,8 +12,8 @@ angular.module('home.controller', [])
          $scope.gotoqrscan = function(){
             $state.go('app.qrscan')
         }
-          $scope.gotobuycc = function(){
-            $state.go('app.buycc')
+          $scope.gotocupcoins = function(){
+            $state.go('app.cupcoins')
         }
          $scope.gotosellcc = function(){
             $state.go('app.sellcc')
