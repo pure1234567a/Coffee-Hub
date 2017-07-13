@@ -23,7 +23,8 @@ angular.module(
   'addmenu.controller',
   'cupcoins.controller',
   'overview.controller',
-  'signinwithqr.controller'
+  'signinwithqr.controller',
+  'signintomanage.controller'
   ])
 
 .run(function($ionicPlatform) {
@@ -230,6 +231,15 @@ angular.module(
         'menuContent': {
           templateUrl: 'templates/signinwithqr.html',
           controller: 'signinwithqrCtrl'
+        }
+      }
+    })
+    .state('app.signintomanage', {
+      url: '/signintomanage',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/signintomanage.html',
+          controller: 'signintomanageCtrl'
         }
       }
     })
