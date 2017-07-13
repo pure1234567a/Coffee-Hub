@@ -1,0 +1,16 @@
+<ion-view view-title="{{title}}">
+  <ion-content>
+
+    <label class="item item-input">
+    <input type="text" placeholder="Username" ng-model="signindata.username" >
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder="Password" ng-model="signindata.password" >
+  </label>
+  
+   <button class="button button-block button-positive"ng-click="dosignin(signindata)">
+  Sign In
+</button>
+  
+  </ion-content>
+</ion-view>
